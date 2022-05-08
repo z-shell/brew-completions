@@ -43,6 +43,7 @@
       "default": {
         "git": "",
         "lucid": "",
+        "has": "brew",
         "as": "brew-completion",
         "atclone": "print Installing Brew completions...; mkdir -p $ZPFX/brew_comps; command cp -f $(brew --prefix)/share/zsh/site-functions/^_* $ZPFX/brew_comps; zi creinstall -q $(brew --prefix)/share/zsh/site-functions;",
         "atpull": "%atclone",
