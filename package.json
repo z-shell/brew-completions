@@ -1,0 +1,55 @@
+{
+  "_from": "brew-completions@^1.0.0",
+  "_id": "zsh-brew-completions@1.0.0",
+  "_inBundle": false,
+  "_location": "/zsh-brew-completions",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "brew-completions@^1.0.0",
+    "name": "brew-completions",
+    "escapedName": "brew-completions",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [],
+  "_spec": "brew-completions@^1.0.0",
+  "_where": "/root/pkgs/pkg-brew-completions",
+  "author": "Salvydas Lukosius",
+  "bugs": {
+    "url": "https://github.com/z-shell/brew-completions/issues"
+  },
+  "version": "1.0.0",
+  "contributors": [],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A package that brings homebrew completions under the control of ZI",
+  "homepage": "https://github.com/z-shell/brew-completions/",
+  "keywords": [
+    "completions",
+    "zsh"
+  ],
+  "license": "MIT",
+  "name": "zsh-brew-completions",
+  "zsh-data": {
+    "plugin-info": {
+      "user": "z-shell",
+      "plugin": "null",
+      "version": "1.0.0"
+    },
+    "zi-ices": {
+      "default": {
+        "git": "",
+        "lucid": "",
+        "as": "brew-completion",
+        "atclone": "print Installing Brew completions...; mkdir -p $ZPFX/brew_comps; command cp -f $(brew --prefix)/share/zsh/site-functions/^_* $ZPFX/brew_comps; zi creinstall -q $(brew --prefix)/share/zsh/site-functions;",
+        "atpull": "%atclone",
+        "atload": "fpath=( ${(u)fpath[@]:#$(brew --prefix)/share/zsh/*} ); fpath+=( $ZPFX/brew_comps );",
+        "run-atpull": "",
+        "nocompile": ""
+      }
+    }
+  }
+}
