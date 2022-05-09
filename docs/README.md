@@ -1,3 +1,4 @@
+<h1></h1>
 <div align="center"><table style="width:100%;height:auto">
 <tr><td align="center">
 <a title="ZI" target="_self" href="https://github.com/z-shell/zi/">
@@ -6,8 +7,8 @@
 </td></tr>
 <tr><td align="center"><h3>
 
-| **Package source:** | Tarball | Binary | Git | Node | Gem | Mod |
-| :-----------------: | :-----: | :----: | :-: | :--: | :-: | :-: |
+| **Package source:** | Tarball | Binary | Git | Node | Gem |        Mod         |
+| :-----------------: | :-----: | :----: | :-: | :--: | :-: | :----------------: |
 |     **Status:**     |   :x:   |  :x:   | :x: | :x:  | :x: | :heavy_check_mark: |
 
 </h3>
@@ -23,10 +24,12 @@ Selectively enable or disable the completions with `cenable` and `cdisable`.
 ```shell
 zi pack for brew-completions
 ```
+
 ```shell
 # Utilize Turbo
 zi wait pack for brew-completions
 ```
+
 ```shell
 # Utilize Turbo and initialize the completion system
 zi wait pack atload=+"zicompinit; zicdreplay" for brew-completions
