@@ -29,6 +29,8 @@
   "homepage": "https://github.com/z-shell/brew-completions/",
   "keywords": [
     "completions",
+    "homebrew",
+    "brew",
     "zsh"
   ],
   "license": "MIT",
@@ -36,7 +38,7 @@
   "zsh-data": {
     "plugin-info": {
       "user": "z-shell",
-      "plugin": "null",
+      "plugin": "0",
       "version": "1.0.0"
     },
     "zi-ices": {
