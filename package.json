@@ -33,7 +33,7 @@
     "brew",
     "zsh"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "name": "zsh-brew-completions",
   "zsh-data": {
     "plugin-info": {
