@@ -21,15 +21,15 @@ Selectively enable or disable the completions with `cenable` and `cdisable`.
 ### Default Profile
 
 ```shell
-zi pack for system-completions
+zi pack for brew-completions
 ```
 ```shell
 # Utilize Turbo
-zi wait pack for system-completions
+zi wait pack for brew-completions
 ```
 ```shell
 # Utilize Turbo and initialize the completion system
-zi wait pack atload=+"zicompinit; zicdreplay" for system-completions
+zi wait pack atload=+"zicompinit; zicdreplay" for brew-completions
 ```
 
 The ZI command executed will be equivalent to:
