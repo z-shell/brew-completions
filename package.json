@@ -11,7 +11,7 @@
     "name": "brew-completions",
     "escapedName": "brew-completions",
     "rawSpec": "^1.0.0",
-    "saveSpec": null,
+    "saveSpec": 0,
     "fetchSpec": "^1.0.0"
   },
   "_requiredBy": [],
