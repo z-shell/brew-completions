@@ -10,16 +10,13 @@ lint:
   linters:
     - name: markdownlint
       command:
-        [markdownlint, -q, --config, .trunk/.markdownlint.yaml, "${target}"]
-      direct_configs: [.trunk/.markdownlint.yaml]
+        [markdownlint, -q, --config, .github/.markdownlint.yaml, "${target}"]
+      direct_configs: [.github/.markdownlint.yaml]
   enabled:
+    - actionlint@1.6.9
+    - gitleaks@8.3.0
+    - markdownlint@0.31.1
+    - prettier@2.5.1
     - gitleaks@8.8.7
     - markdownlint@0.31.1
     - prettier@2.6.2
-  ignore:
-    - linters: [ALL]
-      paths:
-        - "!docs/**"
-    - linters: [actionlint]
-      paths:
-        - ".github/workflows/sync-labels.yml"
