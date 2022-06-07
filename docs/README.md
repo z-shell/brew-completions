@@ -1,19 +1,18 @@
-<h1></h1>
-<div align="center"><table style="width:100%;height:auto">
-<tr><td align="center">
-<a title="ZI" target="_self" href="https://github.com/z-shell/zi/">
-<h2><img align="center" style="width:60px;height:auto" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" /></a>
-❮ ZI ❯ Package - Brew Completions </h2><h3>A package brings <a href="https://docs.brew.sh/Shell-Completion">Homebrew Shell Completion</a> under the control of Zsh & ZI.</h3>
-</td></tr><tr><h3>
+<div align="center"><table><tr><td>
+  <a title="ZI" target="_self" href="https://github.com/z-shell/zi/">
+<h1><img align="center" style="width:60px;height:auto" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" /></a>
+  ❮ ZI ❯ Package - Brew Completions </h1>
+<h2>
 
 | **Package source:** | Tarball | Binary | Git | Node | Gem |        Mod         |
 | :-----------------: | :-----: | :----: | :-: | :--: | :-: | :----------------: |
 |     **Status:**     |   :x:   |  :x:   | :x: | :x:  | :x: | :heavy_check_mark: |
 
-</h3>
-<img style="width:90%;height:auto" alt="Brew Completion System" src="https://user-images.githubusercontent.com/59910950/167327056-05f71a75-c733-41ab-b7fa-082847caf934.png">
-<p><td align="center"><a href="./LICENSE"><img align="center" src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="GPLv3 license" /></a></p>
-</td></tr></table></div>
+</h2>
+  <h3>
+  <p> A package brings <a href="https://docs.brew.sh/Shell-Completion">Homebrew Shell Completion</a> under the control of Zsh & ZI. </p>
+  <p><img align="center" src="https://user-images.githubusercontent.com/59910950/167327056-05f71a75-c733-41ab-b7fa-082847caf934.png" alt="Brew Completion System" width="100%" height="auto" /></p>
+  </h3></td></tr></table></div><hr />
 
 ## Available `pack''` invocations
 
