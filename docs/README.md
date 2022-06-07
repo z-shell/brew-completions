@@ -1,6 +1,6 @@
 <div align="center"><table><tr><td>
-  <a title="ZI" target="_self" href="https://github.com/z-shell/zi/">
-<h1><img align="center" style="width:60px;height:auto" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" /></a>
+  <a arget="_self" href="https://github.com/z-shell/zi/">
+<h1><img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" width="60px" height="60px" /></a>
   ❮ ZI ❯ Package - Brew Completions </h1>
 <h2>
 
@@ -12,7 +12,8 @@
   <h3>
   <p> A package brings <a href="https://docs.brew.sh/Shell-Completion">Homebrew Shell Completion</a> under the control of Zsh & ZI. </p>
   <p><img align="center" src="https://user-images.githubusercontent.com/59910950/167327056-05f71a75-c733-41ab-b7fa-082847caf934.png" alt="Brew Completion System" width="100%" height="auto" /></p>
-  </h3></td></tr></table></div><hr />
+  </h3>
+</td></tr></table></div><hr />
 
 ## Available `pack''` invocations
 
