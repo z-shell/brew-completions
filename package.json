@@ -1,40 +1,22 @@
 {
-  "_from": "brew-completions@^1.0.0",
-  "_id": "zsh-brew-completions@1.0.0",
-  "_inBundle": false,
-  "_location": "/zsh-brew-completions",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "brew-completions@^1.0.0",
-    "name": "brew-completions",
-    "escapedName": "brew-completions",
-    "rawSpec": "^1.0.0",
-    "saveSpec": 0,
-    "fetchSpec": "^1.0.0"
-  },
-  "_requiredBy": [],
-  "_spec": "brew-completions@^1.0.0",
-  "_where": "/root/pkgs/pkg-brew-completions",
-  "author": "Salvydas Lukosius",
-  "bugs": {
-    "url": "https://github.com/z-shell/brew-completions/issues"
-  },
+  "name": "zsh-brew-completions",
   "version": "1.0.0",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
   "description": "A package that brings homebrew completions under the control of ZI",
   "homepage": "https://github.com/z-shell/brew-completions/",
+  "license": "GPL-3.0",
   "keywords": [
     "completions",
     "homebrew",
     "brew",
     "zsh"
   ],
-  "license": "GPL-3.0",
-  "name": "zsh-brew-completions",
+  "author": "Salvydas Lukosius",
+  "bugs": {
+    "url": "https://github.com/z-shell/brew-completions/issues"
+  },
   "zsh-data": {
     "plugin-info": {
       "user": "z-shell",
