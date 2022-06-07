@@ -6,6 +6,9 @@
 .vscode/extensions.json
 *.code-workspace
 
+# Trunk
+.trunk/out
+
 # Exclude for security reasons
 .history/
 .dccache
@@ -125,4 +128,4 @@ TAGS
 \#*
 
 CVS
-.#*
+.#
