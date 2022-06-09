@@ -2,11 +2,11 @@
 <h1 align="center">
   <p><a arget="_self" href="https://github.com/z-shell/zi/">
   <img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" width="60px" height="60px" /></a>
-  ❮ ZI ❯ Package - Brew Completions <p>
+  ❮ ZI ❯ Package - Brew Completions </p>
 </h1>
 <h2 align="center">
   <p> A package brings <a href="https://docs.brew.sh/Shell-Completion">Homebrew Shell Completion</a> under the control of Zsh & ZI </p>
-</h2>  
+</h2>
 <h3 align="center">
 <table>
     <tr>
