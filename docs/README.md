@@ -1,19 +1,35 @@
-<div align="center" width="100%"><table><tr><td>
-  <h1><a arget="_self" href="https://github.com/z-shell/zi/">
+<table align="center"><tr><td>
+<h1 align="center">
+  <p><a arget="_self" href="https://github.com/z-shell/zi/">
   <img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" width="60px" height="60px" /></a>
-  ❮ ZI ❯ Package - Brew Completions </h1>
+  ❮ ZI ❯ Package - Brew Completions <p>
+</h1>
 <h2 align="center">
-<p> A package brings <a href="https://docs.brew.sh/Shell-Completion">Homebrew Shell Completion</a> under the control of Zsh & ZI. </p>
+  <p> A package brings <a href="https://docs.brew.sh/Shell-Completion">Homebrew Shell Completion</a> under the control of Zsh & ZI </p>
 </h2>  
 <h3 align="center">
-
-| **Package source:** | Tarball | Binary | Git | Node | Gem |        Mod         |
-| :-----------------: | :-----: | :----: | :-: | :--: | :-: | :----------------: |
-|     **Status:**     |   :x:   |  :x:   | :x: | :x:  | :x: | :heavy_check_mark: |
-
-</h3>
-<p><img align="center" src="https://user-images.githubusercontent.com/59910950/167327056-05f71a75-c733-41ab-b7fa-082847caf934.png" alt="Brew Completion System" width="100%" height="auto" /></p>
-</td></tr></table></div><hr />
+<table>
+    <tr>
+        <td><b>Package source:</b></td>
+        <td>Tarball</td>
+        <td>Binary</td>
+        <td>Git</td>
+        <td>Node</td>
+        <td>Gem</td>
+        <td>Mod</td>
+    </tr>
+    <tr>
+        <td><b>Status:</b></td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>✔️ (default)</td>
+    </tr>
+</table></h3>
+  <p><img align="center" src="https://user-images.githubusercontent.com/59910950/167327056-05f71a75-c733-41ab-b7fa-082847caf934.png" alt="Brew Completion System" width="100%" height="auto" /></p>
+</td></tr></table><hr />
 
 ## Available `pack''` invocations
 
@@ -52,7 +68,7 @@ zi has'brew' id-as='brew-completions' wait as='completion' lucid \
 
 > This repository compatible with [ZI](https://github.com/z-shell/zi)
 
-The [ZI](https://github.com/z-shell/zi) zsh package that can use the NPM package registry to automatically:
+The [ZI](https://github.com/z-shell/zi) package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
