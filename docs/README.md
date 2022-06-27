@@ -51,13 +51,18 @@ zi wait pack for brew-completions
 zi wait pack atload=+"zicompinit; zicdreplay" for brew-completions
 ```
 
+```shell
+# Utilize Turbo and initialize the completion with fast compinit
+zi wait pack atload=+"zicompinit_fast; zicdreplay" for brew-completions
+```
+
 The ZI command executed will be equivalent to:
 
 ```shell
 zi has'brew' id-as='brew-completions' wait as='completion' lucid \
   atclone='print Installing Brew completions...; \
     mkdir -p $ZPFX/brew_comps; \
-    command cp -f $(brew --prefix)/share/zsh/site-functions/^_* $ZPFX/brew_comps; \
+    command cp -f $(brew --prefix)/share/zsh/site-functions/_* $ZPFX/brew_comps; \
     zi creinstall -q $(brew --prefix)/share/zsh/site-functions' \
       atload='fpath=( ${(u)fpath[@]:#$(brew --prefix)/share/zsh/*} ); fpath+=( $ZPFX/brew_comps )' \
         atpull='%atclone' nocompile run-atpull for \
