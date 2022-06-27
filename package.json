@@ -30,11 +30,12 @@
         "has": "brew",
         "as": "completion",
         "id-as": "brew-completions",
-        "atclone": "print Installing Brew completions...; mkdir -p $ZPFX/brew_comps; command cp -f $(brew --prefix)/share/zsh/site-functions/^_* $ZPFX/brew_comps; zi creinstall -q $(brew --prefix)/share/zsh/site-functions;",
+        "atclone": "print Installing Brew completions...; mkdir -p $ZPFX/brew_comps; command cp -f $(brew --prefix)/share/zsh/site-functions/_* $ZPFX/brew_comps; zi creinstall -q $(brew --prefix)/share/zsh/site-functions;",
         "atpull": "%atclone",
         "atload": "fpath=( ${(u)fpath[@]:#$(brew --prefix)/share/zsh/*} ); fpath+=( $ZPFX/brew_comps );",
         "run-atpull": "",
-        "nocompile": ""
+        "nocompile": "",
+        "countdown": ""
       }
     }
   }
