@@ -8,3 +8,5 @@ line_length: false
 spaces: false
 url: false
 whitespace: false
+MD041: false
+MD033: false

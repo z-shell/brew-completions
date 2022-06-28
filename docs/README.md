@@ -60,13 +60,13 @@ The ZI command executed will be equivalent to:
 
 ```shell
 zi has'brew' id-as='brew-completions' wait as='completion' lucid \
-  atclone='print Installing Brew completions...; \
-    mkdir -p $ZPFX/brew_comps; \
-    command cp -f $(brew --prefix)/share/zsh/site-functions/_* $ZPFX/brew_comps; \
-    zi creinstall -q $(brew --prefix)/share/zsh/site-functions' \
-      atload='fpath=( ${(u)fpath[@]:#$(brew --prefix)/share/zsh/*} ); fpath+=( $ZPFX/brew_comps )' \
-        atpull='%atclone' nocompile run-atpull for \
-          z-shell/0
+  atclone="+zi-message 'Installing Brew completions...'; \
+    command mkdir -p ${ZPFX}/completions; \
+    command cp -f $(brew --prefix)/share/zsh/site-functions/_* ${ZPFX}/completions; \
+    zi creinstall -q $(brew --prefix)/share/zsh/site-functions" \
+  atload='fpath=( ${(u)fpath[@]:#$(brew --prefix)/share/zsh/*} ); fpath+=( ${ZPFX}/completions )' \
+  atpull='%atclone' run-atpull nocompile countdown for \
+    z-shell/0
 ```
 
 ---
