@@ -1,13 +1,12 @@
-documentation 📝:
+type:docs:
   - "docs/**/*.md"
-dependencies 📦:
+area:dependencies:
   - "pnpm-lock.yaml"
   - "yarn.lock"
-enhancement ✨:
+type:maintenance:
   - "functions/**"
   - "src/**"
   - "lib/**"
-maintenance 📈:
   - ".github/CODEOWNERS"
   - ".github/*.md"
   - ".github/*.yml"
@@ -26,12 +25,10 @@ maintenance 📈:
   - ".trunk/*.yaml"
   - ".trunk/*.json"
   - ".trunk/*rc"
-i18n 🌐:
-  - "i18n/**"
-ci 🤖:
+area:ci:
   - ".github/workflows/*.yml"
-plugin ⚙️:
+area:plugin:
   - "functions/**"
   - "*.zsh"
-package 📦:
+area:package:
   - "package.json"
